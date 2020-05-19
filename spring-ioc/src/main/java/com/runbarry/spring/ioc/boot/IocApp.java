@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @version 1.0
  * @since 2020/5/12
  */
-@Controller
-@SpringBootApplication
+//@Controller
+//@SpringBootApplication
 public class IocApp {
     public static void main(String[] args) {
         SpringApplication.run(IocApp.class, args);

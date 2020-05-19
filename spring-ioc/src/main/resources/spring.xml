@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean class="com.runbarry.spring.ioc.boot.processor.MemberBeanFactoryPostProcessor"/>
+    <bean class="com.runbarry.spring.ioc.boot.processor.MemberBeanPostProcessor"/>
+
+    <bean id="member" class="com.runbarry.spring.ioc.boot.bean.Member">
+        <property name="name" value="张小凡"/>
+        <property name="level" value="1"/>
+        <property name="remark" value="备注呢"/>
+    </bean>
+
+
+    <context:component-scan base-package="com.runbarry.spring.ioc.boot"/>
+</beans>
