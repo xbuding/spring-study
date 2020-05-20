@@ -18,7 +18,7 @@ public class MemberBeanFactoryPostProcessor implements BeanFactoryPostProcessor 
         BeanDefinition bd = beanFactory.getBeanDefinition("member");
         MutablePropertyValues pv = bd.getPropertyValues();
         if (pv.contains("remark")) {
-//            pv.addPropertyValue("remark", "在BeanFactoryPostProcessor中修改之后的备忘信息");
+            pv.addPropertyValue("remark", "在BeanFactoryPostProcessor中修改之后的备忘信息");
         }
     }
 }
