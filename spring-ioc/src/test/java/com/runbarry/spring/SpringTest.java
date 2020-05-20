@@ -10,6 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 @Slf4j
 public class SpringTest {
 
+    //https://cloud.tencent.com/developer/article/1497689
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         Member member = context.getBean(Member.class);
