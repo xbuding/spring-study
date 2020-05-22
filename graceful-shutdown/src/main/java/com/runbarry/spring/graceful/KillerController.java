@@ -24,12 +24,12 @@ public class KillerController {
     @GetMapping("sleep")
     public String sleep(Integer timeout) {
         try {
-            log.info("begin sleep:{}", timeout);
+            log.info("start sleep timeout:{}", timeout);
             TimeUnit.SECONDS.sleep(timeout);
-            log.info("end sleep:{}", timeout);
+            log.info("end sleep timeout:{}", timeout);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return "sleep:" + timeout;
+        return "sleep over:" + timeout;
     }
 }
