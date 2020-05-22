@@ -1,4 +1,4 @@
-package com.runbarry.spring.ioc.boot.bean;
+package com.runbarry.spring.ioc.mvc.bean;
 
 public class UserBean {
     private String userName;

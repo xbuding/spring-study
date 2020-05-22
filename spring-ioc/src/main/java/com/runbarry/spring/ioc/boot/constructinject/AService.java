@@ -5,19 +5,19 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-public class A {
+public class AService {
 
-    private B b;
+    private BService bService;
 
-    public A(B b) {
-        this.b = b;
+    public AService(BService bService) {
+        this.bService = bService;
     }
 
     public void say() {
         log.info("A say");
     }
 
-    public void invokeBCall() {
-        b.call();
+    public void invokeBServiceCall() {
+        bService.call();
     }
 }

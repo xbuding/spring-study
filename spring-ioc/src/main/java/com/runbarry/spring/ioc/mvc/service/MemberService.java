@@ -1,4 +1,4 @@
-package com.runbarry.spring.ioc.boot.service;
+package com.runbarry.spring.ioc.mvc.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.runbarry.spring.ioc.boot.listener;
+package com.runbarry.spring.ioc.mvc.listener;
 
 import org.springframework.context.ApplicationEvent;
 

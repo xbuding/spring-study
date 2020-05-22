@@ -1,4 +1,4 @@
-package com.runbarry.spring.ioc.boot.service;
+package com.runbarry.spring.ioc.mvc.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

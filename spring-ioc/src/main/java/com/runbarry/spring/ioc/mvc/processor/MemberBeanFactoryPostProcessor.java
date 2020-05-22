@@ -1,4 +1,4 @@
-package com.runbarry.spring.ioc.boot.processor;
+package com.runbarry.spring.ioc.mvc.processor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;

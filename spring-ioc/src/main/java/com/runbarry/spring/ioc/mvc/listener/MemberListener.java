@@ -1,9 +1,8 @@
-package com.runbarry.spring.ioc.boot.listener;
+package com.runbarry.spring.ioc.mvc.listener;
 
-import com.runbarry.spring.ioc.boot.bean.Member;
+import com.runbarry.spring.ioc.mvc.bean.Member;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;
-import org.springframework.stereotype.Service;
 
 //@Service
 @Slf4j

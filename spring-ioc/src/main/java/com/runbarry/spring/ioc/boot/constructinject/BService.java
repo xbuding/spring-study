@@ -5,12 +5,12 @@ import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
-public class B {
+public class BService {
 
-    private A a;
+    private AService bService;
 
-    public B(A a) {
-        this.a = a;
+    public BService(AService bService) {
+        this.bService = bService;
     }
 
     public void call() {
@@ -18,6 +18,6 @@ public class B {
     }
 
     public void say() {
-        a.say();
+        bService.say();
     }
 }
