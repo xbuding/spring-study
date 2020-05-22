@@ -26,8 +26,13 @@ public class SpringTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-constructor.xml");
         AService aService = context.getBean(AService.class);
         aService.invokeBServiceCall();
-        BService bService = context.getBean(BService.class);
-        bService.async();
+    }
+
+    @Test
+    public void autowireTest() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-autowire.xml");
+        com.runbarry.spring.ioc.boot.autowire.AService aService = context.getBean(com.runbarry.spring.ioc.boot.autowire.AService.class);
+        aService.invokeBServiceCall();
     }
 
     @Test
