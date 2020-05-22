@@ -5,6 +5,8 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
 /**
+ * 实现BeanPostProcessor的处理器 将会对所有bean进行处理，可beanName对特定的bean进行定制化处理
+ *
  * @author Administrator
  */
 @Slf4j

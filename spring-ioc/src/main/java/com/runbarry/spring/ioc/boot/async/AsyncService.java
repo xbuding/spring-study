@@ -20,7 +20,7 @@ public class AsyncService {
     /**
      * 当出现循环依赖时。@Async 将导致 org.springframework.beans.factory.BeanCurrentlyInCreationException:
      *
-     * @throw org.springframework.beans.factory.BeanCurrentlyInCreationException:
+     * @throws org.springframework.beans.factory.BeanCurrentlyInCreationException:
      */
     @Autowired
     private BService bService;

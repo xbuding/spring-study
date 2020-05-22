@@ -8,6 +8,9 @@ import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 
 /**
+ * BeanFactoryPostProcessor会在BeanPostProcessor之前执行，可以拓展BeanDefinition等操作
+ * MemberBeanFactoryPostProcessor会在 {@link MemberBeanPostProcessor}之前，执行
+ *
  * @author Administrator
  */
 @Slf4j
