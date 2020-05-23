@@ -11,6 +11,8 @@
     <modules>
         <module>spring-ioc</module>
         <module>graceful-shutdown</module>
+        <module>study-starter</module>
+        <module>user-study-starter</module>
     </modules>
 
     <parent>
